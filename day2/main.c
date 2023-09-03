@@ -22,6 +22,7 @@ int main(void) {
 
     if (size <= 0) {
         printf("No valid integers found in the file.\n");
+        exit(1);
     } 
     #if DEBUG 
     else {
